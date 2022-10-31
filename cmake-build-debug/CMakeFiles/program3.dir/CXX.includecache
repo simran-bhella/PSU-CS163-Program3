@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/d/Development/CS163/program3/hash.h
+iostream
+-
+cctype
+-
+cstring
+-
+fstream
+-
+
+/mnt/d/Development/CS163/program3/main.cpp
+hash.h
+/mnt/d/Development/CS163/program3/hash.h
+
